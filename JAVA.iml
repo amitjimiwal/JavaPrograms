@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Conditions and loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="JavaIntro" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Functions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Questions/Conditionandloops" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
