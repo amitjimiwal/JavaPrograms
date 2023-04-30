@@ -2,6 +2,7 @@ package JavaIntro;
 //package generally refers to the folder inside which our class there
 
 import java.util.Scanner;
+//package that containers the scanner class to input in Java
 
 public class Helloworld {
       //PUBLIC CLASSNAME AND FILE NAME SHOULD BE SAME
@@ -15,7 +16,8 @@ public class Helloworld {
         //THIS IS THE PRINT STATEMENT OF THE JAVA PROGRAMMING
         System.out.println("My Name Is Amit");
         Scanner input=new Scanner(System.in);
-
+        System.out.println(input.nextInt());
+        //takes the input from keyboard as integer
 
     }
 }

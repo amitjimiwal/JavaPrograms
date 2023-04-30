@@ -20,7 +20,7 @@ public class Inputs {
 
         //taking a string as an input
         System.out.print("Enter your name: ");
-        String str= amit.nextLine();
+        String str= amit.next();
         System.out.println("your name is "+str);
 
         //float input
