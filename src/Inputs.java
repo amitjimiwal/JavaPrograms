@@ -8,7 +8,7 @@ public class Inputs {
         //we inly need to make a object of scanner classs
         //that will take input
         Scanner amit=new Scanner(System.in);
-
+        // system.in takes input from the keyboard/inputstream
         //taking integer inputs
         System.out.print("ENTER YOUR ROLL NO: ");
         int rollno= amit.nextInt();
