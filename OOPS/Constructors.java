@@ -1,7 +1,4 @@
 package OOPS;
-
-import javax.annotation.processing.SupportedOptions;
-
 class Student{
       // properties
       int roll;
