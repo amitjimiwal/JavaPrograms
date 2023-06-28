@@ -4,8 +4,9 @@ import java.io.FileNotFoundException;
 import java.nio.channels.FileLockInterruptionException;
 
 class Throws {
-      static void dummy() throws InterruptedException {
-            Thread.sleep(0);
+      static void dummy() throws ArithmeticException {
+            // Thread.sleep(0);
+            System.out.println(0/1);
       }
 
       public static void main(String[] args) {
@@ -14,7 +15,7 @@ class Throws {
                   dummy();
                   System.out.println("S1");
                   System.out.println("S3");
-            } catch (InterruptedException obj) {
+            } catch (ArithmeticException obj) {
                   System.out.println("S4");
                   System.out.println(obj.getMessage());
                   System.out.println(obj.toString());
