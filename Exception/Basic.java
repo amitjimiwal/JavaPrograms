@@ -13,9 +13,10 @@ class Basic{
             //  System.out.println(0/0); 
             System.out.println(a[10]);
             System.out.println("S3");
-            }catch(Exception obj){
+            }catch(ArrayIndexOutOfBoundsException obj){
                 System.out.println("S4");
-                System.out.println(obj);
+                System.out.println(obj.getMessage());
+                System.out.println(obj.toString());
             }
           
             System.out.println("S2");
