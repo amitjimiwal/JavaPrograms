@@ -1,6 +1,6 @@
 package OOPS;
 class Student{
-      // properties
+      // properties  
       int roll;
       String name;
       float marks;
