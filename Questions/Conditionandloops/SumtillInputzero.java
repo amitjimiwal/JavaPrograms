@@ -23,5 +23,15 @@ public class SumtillInputzero {
             sum+=n;
         }
         System.out.println(sum);
+        // using do-while loop
+        Scanner sc=new Scanner(System.in);
+        int sum2=0;
+        int a;
+        do{
+          a=sc.nextInt();
+          sum2+=a;
+        }while(a!=0);
+        System.out.println(sum2);
+        sc.close();
     }
 }
