@@ -19,7 +19,7 @@ public class ArmstrongNumber {
     }
 
     static int ArmstrongCheck(int n) {// int return type function with name ArmstrongCheck
-//        int armstrong=1; //It shadows the static int declaration and in this block of code armstrong=1 will be used.
+       int armstrong=0; //It shadows the static int declaration and in this block of code armstrong=1 will be used.
         //thEREFORRE THE LOW LEVEL will shadow the high level. Its called shadowing.
         while (n>0){
             int rem=n%10; //return the last digit of intger
@@ -27,6 +27,7 @@ public class ArmstrongNumber {
             // method to calculate it. pow(a,b) represents a raise to power b i.e, (a)^b
             n/=10;
         }
+        // return armstrong==n; it is giving false even if they both are equal because here we are checkng the reference variables are pointing to the same object or not which they are not 
         return armstrong;
     }
 }

@@ -13,7 +13,7 @@ public class PrimeNumber {
         System.out.println(primecheck(a));
     }
     static boolean primecheck(int num){
-          if (num==1){
+          if (num<=1){
               return false;
           }
           else{
