@@ -26,17 +26,9 @@ public class ArrayReverse {
           }
           System.out.println(Arrays.toString(array));
      }
-
      static void swap(int[] arr, int i, int j) {
           int temp = arr[i];
           arr[i] = arr[j];
           arr[j] = temp;
      }
-     // static void reverse(int[] arr){
-     // for (int i = 0; i < array.length; i++) {
-     // for(int j=n-1;j>0;j++){
-     // if(i==j || j=i+1)
-     // }
-     // }
-     // }
 }
