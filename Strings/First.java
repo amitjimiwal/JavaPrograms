@@ -13,5 +13,10 @@ public class First {
           //pretty formaating in the strings
           System.out.printf("Hello my name is %s and %s",s,a);
           System.out.println();
+
+          //iteration
+          for (int i = 0; i < s.length(); i++) {
+               System.out.println(s.charAt(i));
+          }
      }
 }
