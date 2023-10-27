@@ -16,6 +16,7 @@ class Solution{
                for (int j = i+1; j < n; j++) {
                     sum+=nums[j];
                     if(sum==k) maxlen=Math.max(maxlen, (j-i)+1);
+                    if(sum>k) break;
                }
           }
 		return maxlen;
