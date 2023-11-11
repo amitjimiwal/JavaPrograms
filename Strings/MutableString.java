@@ -9,5 +9,10 @@ public class MutableString {
                sb.append(c);
           }
           System.out.println(sb.toString());
+
+          StringBuilder a=new StringBuilder("start");
+          a.append("le");
+          a.insert(2,"le");
+          System.out.println(a); //stleartle
      }
 }
