@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class SetHash {
      public static void main(String[] args) {
@@ -15,6 +14,7 @@ public class SetHash {
           names.add("Jimiwal2");
           names.add("walter");
           names.remove("Walter");
+          names.add(null); //can add null
           // names.clear();
           System.out.println(names.isEmpty());
 
