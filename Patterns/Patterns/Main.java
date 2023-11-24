@@ -10,6 +10,7 @@ public class Main {
         pattern3(n);
         pattern4(n);
         pattern5(n);
+        patternImp(n)
         sc.close();
     }
 
@@ -76,6 +77,15 @@ public class Main {
             }
             for (int i = 2; i <= colcount; i++) {
                 System.out.print(i + " ");
+            }
+            System.out.println();
+        }
+    }
+    static void patternImp(int n){
+        for (int row = 1; row <=2*n-1; row++) {
+            for (int col = 1; col <=2*n-1; col++) {
+                int valAtIndex=n-(Math.min(Math.min(2*n-1-col, col-1),Math.min(row-1,2*n-1-row )));
+                System.out.print(valAtIndex +" ");
             }
             System.out.println();
         }
