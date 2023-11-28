@@ -22,7 +22,47 @@ public class Main {
         }
         sc.close();
     }
-   
+    private static void selectionsort(int[] arr, int n) {
+        if(n==1) return;
+        int maxi=-1;
+        int maxval=Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            if(arr[i]>maxval){
+                maxval=arr[i];
+                maxi=i;
+            }
+        }
+        swap(arr, maxi, n-1);
+        selectionsort(arr, n-1);
+    }
+    static void swap(int[] arr,int i,int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    private static void bubbleSort(int[] arr, int n) {
+        if (n == 0 || n == 1)
+            return;
+        boolean iswapped=false;
+        for (int j = 0; j < n - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                iswapped=true;
+                swap(arr, j, j+1);
+            }
+        }
+        if(!iswapped) return;
+        bubbleSort(arr, n-1);
+    }
+
+    private static String reverse(String s, int i, int j) {
+        if (i > j)
+            return s; // base case
+        char[] ch = s.toCharArray(); // common body
+        char temp = ch[i];
+        ch[i] = ch[j];
+        ch[j] = temp;
+        return reverse(new String(ch), i + 1, j - 1); // recursive calls
+    }
     private static int searchL(int[] arr, int i, int t) {
         if(i<0) return -1;
         if(arr[i]==t) return i;
