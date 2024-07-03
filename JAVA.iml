@@ -9,7 +9,22 @@
       <sourceFolder url="file://$MODULE_DIR$/Functions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Questions/Conditionandloops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Leetcode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BasicMaths" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BitManipulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DSA" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exception" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOPS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pascal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Patterns" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Questions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Questions/Functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Searching" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threading" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
