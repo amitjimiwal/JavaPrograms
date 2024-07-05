@@ -10,7 +10,7 @@ public class Main {
         pattern3(n);
         pattern4(n);
         pattern5(n);
-        patternImp(n)
+        patternImp(n);
         sc.close();
     }
 

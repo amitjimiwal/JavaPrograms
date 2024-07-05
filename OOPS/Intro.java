@@ -22,7 +22,7 @@ public class Intro {
       public static void main(String[] args) {
             // creating a object(created at runtime in heap memory)
             // reference variable s1 in stack memory points to this object in heap of student class
-            Student s1=new Student();
+            OOPS.S s1=new OOPS.S();
             s1.roll=10;
             s1.marks=88;
             s1.name="Sushil XD";

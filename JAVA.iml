@@ -15,7 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DSA" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exception" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OOPS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOPS" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/Pascal" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Patterns" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Questions" isTestSource="false" />

@@ -1,23 +1,24 @@
 package OOPS;
-class Student{
+
+class S {
       // properties  
       int roll;
       String name;
       float marks;
       // default constructor
-      Student(){
+      S(){
             this.roll=1;
             this.marks=88.5f;
             this.name="Admin";
       }
       // parametrized constructor
-      Student(int rno,String name,float number){
+      S(int rno, String name, float number){
             this.roll=rno;
             this.name=name;
             this.marks=number;
       }
       // copy constructor
-      Student(Student student){
+      S(OOPS.S student){
             this.roll=student.roll;
             this.name=student.name;
             this.marks=student.marks;
@@ -30,9 +31,9 @@ class Student{
 }
 public class Constructors {
       public static void main(String[] args) {
-            Student s1=new Student();
-            Student s2=new Student(10,"Amit Jimiwal", 99);
-            Student s3=new Student(s2);
+            OOPS.S s1=new OOPS.S();
+            OOPS.S s2=new OOPS.S(10,"Amit Jimiwal", 99);
+            OOPS.S s3=new OOPS.S(s2);
             s1.display();
             s2.display();
             s3.display();
